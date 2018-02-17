@@ -102,6 +102,11 @@ namespace Assimp.Unmanaged
         /// aiCamera**, cameras in the scene.
         /// </summary>
         public IntPtr Cameras;
+        
+        /// <summary>
+        /// aiMetadata*, pointer to a metadata container.
+        /// </summary>
+        public IntPtr MetaData;
 
         /// <summary>
         /// void*, Private data do not touch!
